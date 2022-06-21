@@ -5,10 +5,14 @@ body {
 
 .topnav {
     background-color: #000;
-  }
+    display: flex;
+    justify-content: space-between;
+}
 
-.margin-start {
-    margin-left: 50%;
+.middle-bar {
+    margin: 15px 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 a {
@@ -18,7 +22,7 @@ a {
     text-decoration: none;
     font-size: 20px;
     padding: 15px 30px;
-    }
+}
 
 a:hover {
     background-color: grey;
@@ -30,69 +34,19 @@ a:hover {
     color: white;
 }
 
-.panel-r {
-    border: 2px solid #000;
-    margin-bottom: 20px;
+.card {
+    border: 1px solid #000;
+    margin: 5px;
     padding: 10px;
 }
 
-.panel-1 {
+.bottom-container {
     border: 2px solid #000;
-    margin-bottom: 20px;
-    padding: 10px;
-    height: 25%;
+    padding: 20px 40px;
+}
+
+.car-row {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
 }
 
-.panel-2 {
-    border: 2px solid #000;
-    margin-bottom: 20px;
-    padding: 10px;
-    height: 25%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.panel-3 {
-    border: 2px solid #000;
-    margin-bottom: 20px;
-    padding: 10px;
-    height: 25%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.boxes {
-    height: 100px;
-    width: 100px;
-    background-color: #000;
-    margin: 0 10px;
-}
-
-.num-text {
-    color: white;
-    margin-top: 0;
-}
-
-.flex-container {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.left-hand {
-    width: 70%;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.right-hand {
-    width: 30%;
-    margin: 20px;
-    padding: 15px;
-}
