@@ -30,10 +30,46 @@ a:hover {
     color: white;
 }
 
-.panel {
-    border: 1px solid #000;
+.panel-r {
+    border: 2px solid #000;
     margin-bottom: 20px;
     padding: 10px;
+}
+
+.panel-1 {
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.panel-2 {
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.panel-3 {
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.boxes {
+    height: 80px;
+    width: 80px;
+    background-color: #000;
+    margin: 0 10px;
+}
+
+.num-text {
+    color: white;
+    margin-top: 0;
 }
 
 .flex-container {
