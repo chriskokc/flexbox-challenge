@@ -40,29 +40,35 @@ a:hover {
     border: 2px solid #000;
     margin-bottom: 20px;
     padding: 10px;
+    height: 25%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .panel-2 {
     border: 2px solid #000;
     margin-bottom: 20px;
     padding: 10px;
+    height: 25%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .panel-3 {
     border: 2px solid #000;
     margin-bottom: 20px;
     padding: 10px;
+    height: 25%;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .boxes {
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     background-color: #000;
     margin: 0 10px;
 }
@@ -80,9 +86,13 @@ a:hover {
 .left-hand {
     width: 70%;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .right-hand {
     width: 30%;
     margin: 20px;
+    padding: 15px;
 }
